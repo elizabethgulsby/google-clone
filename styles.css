@@ -66,6 +66,9 @@ body {
 .microphone {
 	width: 24px;
 	height: 24px;
+	/* negative margins placed the mic inside the textbox */
+	margin-left: -30px;
+	margin-bottom: -7px;
 }
 
 .top-menu-images {
