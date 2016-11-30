@@ -1,0 +1,125 @@
+html{
+	color: #686868;
+	font-family: Arial, sans-serif;
+
+}
+
+body {
+	width:  100%;
+/* 	border: 1px solid #E4E4E4;
+ */
+}
+
+#google-wrapper{
+	border: 0;
+	width: 100%;
+	padding-left: -3px;
+}
+
+#header{
+	height:  50px;
+	/* background-color: #F5F5F5; */
+	width: 100%
+}
+
+#menu{
+	position: absolute;
+	right: 10px;
+	width:  245px;
+	font-size: 13px;
+}
+
+.menu-item{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 24px;
+	padding-left: 5px;
+	padding-right: 12px;
+	padding-top: 3px;
+	word-spacing: 1em;
+
+}
+
+#google-logo{
+	padding-top: 27px;
+}
+
+#body{
+	text-align: center;
+}
+
+#search-wrapper{
+	line-height: 26px;
+	height:  100%;
+	padding:  6px 9px 0;
+	max-width: 100%;
+	/* for debugging purposes, background - green */
+	/* background-color: green; */
+}
+
+.searchbar {
+	width: 600px;
+	height: 32px;
+	border:  1px solid #d9d9d9;
+}
+
+.microphone {
+	width: 24px;
+	height: 24px;
+}
+
+.top-menu-images {
+	width:  16px;
+	height:  16px;
+	padding-top: 5px;
+}
+
+.top-menu-images-pic {
+	width:  32px;
+	height:  32px;
+	padding-top: 5px;
+}
+
+#button-holder{
+	height: 50px;
+    line-height: 55px;
+}
+
+.bar{
+	padding-top: 5px;
+}
+
+#footer{
+/* make sure it's the width of the body */
+height:  35px;
+background-color: #F5F5F5;
+/* give the element absolute positioning so we can put it on the bottom */
+position: absolute;
+/* set bottom to 0 */
+bottom: 0px; 
+width:  100%;
+font-size: 10pt;
+padding-bottom: 5px;
+padding-top: 5px;
+border-top: 1px solid #E4E4E4;
+/* for debugging purposes, see border-left:  */
+border-left: 1px solid #E4E4E4;
+vertical-align: center;
+line-height: 30px;
+
+}
+
+#left-footer{
+	position: absolute;
+	padding-left: 5px;
+	padding-right: 12px;
+}
+
+#right-footer{
+	position: absolute;
+	right:  20px;
+	padding-left: 5px;
+	padding-right: 12px;
+	vertical-align: text-top;
+
+}
